@@ -219,8 +219,7 @@ namespace begin_доп_задания
                 Console.WriteLine("a: " + a + " b: " + b);
             }
 
-            //thygyugfjykujgvfjtkyghgjyhg
-            //изменения
+         
 
             Console.ReadKey();
 
