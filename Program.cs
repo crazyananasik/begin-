@@ -220,6 +220,7 @@ namespace begin_доп_задания
             }
 
             //thygyugfjykujgvfjtkyghgjyhg
+            //изменения
 
             Console.ReadKey();
 
