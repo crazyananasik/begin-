@@ -14,7 +14,7 @@ namespace begin_доп_задания
             Console.WriteLine("введите число:");
             string w = Console.ReadLine();
             a = int.Parse(w);
-            int f = 1;
+            long f = 1;
             for(int i = 1; i <= a; i++)
             {
                 f *= i;
@@ -25,116 +25,147 @@ namespace begin_доп_задания
 
 
 
-        //static void qwe3()
-        //{
-        //    for (int i = 1; i <= 50; i++) 
-        //    {
-        //        if (i % 3 == 0)
-        //        {
-        //            Console.WriteLine(i);
-        //        }
-        //    }
-        //}
+        static void qwe3()
+        {
+            for (int i = 1; i <= 50; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+        }
 
 
 
-        //static void for7()
-        //{
-        //    double a;
-        //    double b;
-        //    double S = 0;
-        //    Console.WriteLine("введите значение а");
-        //    string w = Console.ReadLine();
-        //    a = double.Parse(w);
-        //    Console.WriteLine("введите значение в");
-        //    string e = Console.ReadLine();
-        //    b = double.Parse(e);
-        //    for (double i = a; i <= b; i++)
-        //    {
-        //        S += i;
-        //        Console.WriteLine($"сумма числел от {a} до {i} = {S}");
-        //    }
-        //}
+        static void for7()
+        {
+            double a;
+            double b;
+            double S = 0;
+            Console.WriteLine("введите значение а");
+            string w = Console.ReadLine();
+            a = double.Parse(w);
+            Console.WriteLine("введите значение в");
+            string e = Console.ReadLine();
+            b = double.Parse(e);
+            for (double i = a; i <= b; i++)
+            {
+                S += i;
+                Console.WriteLine($"сумма числел от {a} до {i} = {S}");
+            }
+        }
 
 
 
-        //static void for6()
-        //{
-        //    double a;
-        //    Console.WriteLine("введите цену за кг");
-        //    string w = Console.ReadLine();
-        //    a = double.Parse(w);
-        //    for(double i = 1.2;  i <= 2; i += 0.2)
-        //    {
-        //        double c = a * i;
-        //        Console.WriteLine($"{i} кг конфет стоят {c} рублей");
-        //    }
-        //}
+        static void for6()
+        {
+            double a;
+            Console.WriteLine("введите цену за кг");
+            string w = Console.ReadLine();
+            a = double.Parse(w);
+            for (double i = 1.2; i <= 2; i += 0.2)
+            {
+                double c = a * i;
+                Console.WriteLine($"{i} кг конфт стоят {c} рублей");
+            }
+        }
 
 
-        //static void for5()
-        //{
-        //    double a;
-        //    Console.WriteLine("введите цену за кг :");
-        //    string e = Console.ReadLine();
-        //    a = double.Parse(e);
-        //    for (double i = 0.1; i <= 1; i += 0.1)
-        //    {
-        //        double c = a * i;
-        //        Console.WriteLine($"{i} кг конфет стоят {c} рублей");
-        //    }
-        //}
+        static void for5()
+        {
+            double a;
+            Console.WriteLine("введите цену за кг :");
+            string e = Console.ReadLine();
+            a = double.Parse(e);
+            for (double i = 0.1; i <= 1; i += 0.1)
+            {
+                double c = a * i;
+                Console.WriteLine($"{i} кг конфет стоят {c} рублей");
+            }
+        }
 
 
 
 
 
-        //static void qwe2()
-        //{
-        //    int a;
-        //    int b;
-        //    int n;
-        //    int s;
-        //    int f;
-        //    Console.WriteLine("введите число");
-        //    string q = Console.ReadLine();
-        //    a = int.Parse(q);
-        //    b = a % 10;
-        //    n = a % 100 / 10;
-        //    s = a / 100;
-        //    f = b * 100 + n * 10 + s;
-        //    if (a == f)
-        //    {
-        //        Console.WriteLine(f + " является полиндромом для числа " + a);
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine(f + " не является полиндромом для числа " + a);
-        //    }
-        //}
+        static void qwe2()
+        {
+            int a;
+            int b;
+            int n;
+            int s;
+            int f;
+            Console.WriteLine("введите число");
+            string q = Console.ReadLine();
+            a = int.Parse(q);
+            b = a % 10;
+            n = a % 100 / 10;
+            s = a / 100;
+            f = b * 100 + n * 10 + s;
+            if (a == f)
+            {
+                Console.WriteLine(f + " является полиндромом для числа " + a);
+            }
+            else
+            {
+                Console.WriteLine(f + " не является полиндромом для числа " + a);
+            }
+        }
 
 
-        //static void qwe1()
-        //{
-        //    double s;
-        //    Console.WriteLine("введите сумму");
-        //    string w = Console.ReadLine();
-        //    s = double.Parse(w);
-        //    if (s == 1)
-        //    {
-        //        Console.WriteLine(s + " рубль");
-        //    }
-        //    else if (s >= 2 && s <= 4)
-        //    {
-        //        Console.WriteLine(s + " рубля");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine(s + " рублей");
-        //    }
-        //}
+        static void qwe1()
+        {
+            int a;
+            Console.WriteLine("a=");
+            string t = Console.ReadLine();
+            a = int.Parse(t);
+            string r = "рублей";
 
 
+
+            if ((a / 10 % 10 == 2 || a / 10 % 10 == 3 || a / 10 % 10 == 4 || a / 10 % 10 == 5 || a / 10 % 10 == 6 || a / 10 % 10 == 7 || a / 10 % 10 == 8 || a / 10 % 10 == 9) & a % 10 == 1)
+            {
+                Console.WriteLine(a + "рубль");
+            }
+            else if ((a / 10 % 10 == 2 || a / 10 % 10 == 3 || a / 10 % 10 == 4 || a / 10 % 10 == 5 || a / 10 % 10 == 6 || a / 10 % 10 == 7 || a / 10 % 10 == 8 || a / 10 % 10 == 9) && (a % 10 == 2 || a % 10 == 3 || a % 10 == 4))
+            {
+                Console.WriteLine(a + "рубля");
+            }
+            else if (a == 11)
+            {
+                Console.WriteLine(a + r);
+            }
+
+            else if (a / 10 == 1 & (a % 10 == 1 || a % 10 == 2 || a % 10 == 3 || a % 10 == 4 || a % 10 == 5 || a % 10 == 6 || a % 10 == 7 || a % 10 == 8 || a % 10 == 9))
+            {
+                Console.WriteLine(a + r);
+            }
+            else
+            {
+                Console.WriteLine(a + r);
+            }
+            //double s;
+            //Console.WriteLine("введите сумму");
+            //string w = Console.ReadLine();
+            //s = double.Parse(w);
+            //if (s == 1)
+            //{
+            //    Console.WriteLine(s + " рубль");
+            //}
+            //else if (s >= 2 && s <= 4)
+            //{
+            //    Console.WriteLine(s + " рубля");
+            //}
+            //else
+            //{
+            //    Console.WriteLine(s + " рублей");
+            //}
+        }
+
+        // если на 1 рубль, ктоме 11 рублей
+        // 2 3 4 рябля, кроме 12 рублей 
+        // 
 
 
         //static void begin5()
@@ -161,105 +192,107 @@ namespace begin_доп_задания
         //}
 
 
-        //static void begin7()
-        //{
+        static void begin7()
+        {
 
 
-        //    double L;
-        //    double R;
-        //    double S;
-        //    Console.WriteLine("какое значение R ");
-        //    string t = Console.ReadLine();
-        //    R = double.Parse(t);
-        //    L = 2 * Math.PI * R;
-        //    S = Math.PI * Math.Pow(R, 2);
-        //    Console.WriteLine("L = " + L);
-        //    Console.WriteLine("S = " + S);
-        //}
+            double L;
+            double R;
+            double S;
+            Console.WriteLine("какое значение R ");
+            string t = Console.ReadLine();
+            R = double.Parse(t);
+            L = 2 * Math.PI * R;
+            S = Math.PI * Math.Pow(R, 2);
+            Console.WriteLine("L = " + L);
+            Console.WriteLine("S = " + S);
+        }
 
-        //static void if14()
-        //{
-        //    int a;
-        //    int b;
-        //    int c;
-        //    Console.WriteLine(" значение числа а");
-        //    string e = Console.ReadLine();
-        //    a = int.Parse(e);
-        //    Console.WriteLine("значение числа b");
-        //    string f = Console.ReadLine();
-        //    b = int.Parse(f);
-        //    Console.WriteLine("значение числа c");
-        //    string t = Console.ReadLine();
-        //    c = int.Parse(t);
-        //    if (a > b && a > c)
-        //    {
-        //        if (b > c)
-        //        {
-        //            Console.WriteLine($"наименьшее {c}");
-        //        } else
-        //        {
-        //            Console.WriteLine($"наименьшее {b}");
-        //        }
-        //        Console.WriteLine($"наименьшее {a}");
-        //    } 
-        //    else if (b > c && b > a)
-        //    {
-        //        if (a > c) 
-        //        {
-        //            Console.WriteLine($"наименьшее {c}");
-        //        } else
-        //        {
+        static void if14()
+        {
+            int a;
+            int b;
+            int c;
+            Console.WriteLine(" значение числа а");
+            string e = Console.ReadLine();
+            a = int.Parse(e);
+            Console.WriteLine("значение числа b");
+            string f = Console.ReadLine();
+            b = int.Parse(f);
+            Console.WriteLine("значение числа c");
+            string t = Console.ReadLine();
+            c = int.Parse(t);
+            if (a > b && a > c)
+            {
+                if (b > c)
+                {
+                    Console.WriteLine($"наименьшее {c}");
+                }
+                else
+                {
+                    Console.WriteLine($"наименьшее {b}");
+                }
+                Console.WriteLine($"наименьшее {a}");
+            }
+            else if (b > c && b > a)
+            {
+                if (a > c)
+                {
+                    Console.WriteLine($"наименьшее {c}");
+                }
+                else
+                {
 
-        //        }
-        //    }
-        //}
+                }
+            }
+        }
 
-        //static void if13()
-        //{
-        //    Console.WriteLine("if11");
-        //    int a;
-        //    int b;
-        //    int c;
-        //    Console.WriteLine(" значение числа а");
-        //    string e = Console.ReadLine();
-        //    a = int.Parse(e);
-        //    Console.WriteLine("значение числа b");
-        //    string f = Console.ReadLine();
-        //    b = int.Parse(f);
-        //    Console.WriteLine("значение числа c");
-        //    string t = Console.ReadLine();
-        //    c = int.Parse(t);
-        //    if (a > b && a < c)
-        //    {
-        //        Console.WriteLine("a среднее");
-        //    }
-        //    else if (b < a && b > c)
-        //    {
-        //        Console.WriteLine("b среднее");
-        //    }
-        //    else if (c < a && c > b)
-        //    {
-        //        Console.WriteLine("c среднее");
-        //    }
-        //    else
-        //    {
-        //        Console.WriteLine("числа равны");
-        //    }
-
-
+        static void if13()
+        {
+            Console.WriteLine("if11");
+            int a;
+            int b;
+            int c;
+            Console.WriteLine(" значение числа а");
+            string e = Console.ReadLine();
+            a = int.Parse(e);
+            Console.WriteLine("значение числа b");
+            string f = Console.ReadLine();
+            b = int.Parse(f);
+            Console.WriteLine("значение числа c");
+            string t = Console.ReadLine();
+            c = int.Parse(t);
+            if (a > b && a < c)
+            {
+                Console.WriteLine("a среднее");
+            }
+            else if (b < a && b > c)
+            {
+                Console.WriteLine("b среднее");
+            }
+            else if (c < a && c > b)
+            {
+                Console.WriteLine("c среднее");
+            }
+            else
+            {
+                Console.WriteLine("числа равны");
+            }
 
 
-        //}
+
+
+        }
         static void Main(string[] args)
         {
             //if13();
-            //qwe1();
+            qwe1();
             //qwe2 ();
             //for5();
             //for6();
             //for7();
             //qwe3();
-            qwe4();
+            //qwe4();
 
 
             ////begin 9
