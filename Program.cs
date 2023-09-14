@@ -118,10 +118,9 @@ namespace begin_доп_задания
         {
 
             int a;
-            Console.WriteLine("a=");
+            Console.WriteLine("введите число :");
             string t = Console.ReadLine();
             a = int.Parse(t);
-            //string r = "рублей";
 
                 if ((a / 10 % 10 > 1 & a / 10 % 10 < 10) & a % 10 == 1)
                 {
