@@ -132,10 +132,7 @@ namespace begin_доп_задания
             {
                 Console.WriteLine(a + "рубля");
             }
-            else if (a == 11)
-            {
-                Console.WriteLine(a + r);
-            }
+           
 
             else if (a / 10 == 1 & (a % 10 == 1 || a % 10 == 2 || a % 10 == 3 || a % 10 == 4 || a % 10 == 5 || a % 10 == 6 || a % 10 == 7 || a % 10 == 8 || a % 10 == 9))
             {
