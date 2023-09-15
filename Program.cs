@@ -123,7 +123,7 @@ namespace begin_доп_задания
             number = int.Parse(t);
             int dozens = number / 10 % 10;
             int unit = number % 10;
-            if (unit == 1)
+            if ((unit == 1) && (dozens != 1))
             {
                 Console.WriteLine(number + " рубль");
             }
