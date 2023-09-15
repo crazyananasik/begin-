@@ -117,28 +117,46 @@ namespace begin_доп_задания
         static void qwe1()
         {
 
-            int a;
+            int number;
             Console.WriteLine("введите число :");
             string t = Console.ReadLine();
-            a = int.Parse(t);
+            number = int.Parse(t);
+            int dozens = number / 10 % 10;
+            int unit = number % 10;
+            if (unit == 1)
+            {
+                Console.WriteLine(number + " рубль");
+            }
+            else if ((unit >= 2 &&  unit <= 4) && (dozens != 1))
+            {
+                Console.WriteLine(number + " рубля");
+            }
+            else
+            {
+                Console.WriteLine(number + " рублей");
+            }
 
-                if ((a / 10 % 10 > 1 & a / 10 % 10 < 10) & a % 10 == 1)
-                {
-                    Console.WriteLine(a + " рубль");
-                }
-                else if ((a / 10 % 10 > 1 & a / 10 % 10 < 10) & (a % 10 >= 2 & a % 10 <= 4))
-                {
-                    Console.WriteLine(a + " рубля");
-                }
+            //    if ((dozens > 1 & dozens < 10) & unit == 1) 
+            //    {
+            //        Console.WriteLine(number + " рубль");
+            //    }
+            //    else if ((a / 10 % 10 > 1 & a / 10 % 10 < 10) & (a % 10 >= 2 & a % 10 <= 4))
+            //    {
+            //        Console.WriteLine(a + " рубля");
+            //    }
 
-                else if ((a % 10 >= 1 & a % 10 <= 9))
-                {
-                    Console.WriteLine(a + " рублей");
-                }
-                else
-                {
-                    Console.WriteLine(a + " рублей");
-                }
+            //    else if ((a % 10 >= 1 & a % 10 <= 9))
+            //    {
+            //        Console.WriteLine(a + " рублей");
+            //    }
+            //    else if (a  == 1)
+            //{
+            //    Console.WriteLine(a + " рубль");
+            //}
+            //    else
+            //    {
+            //        Console.WriteLine(a + " рублей");
+            //    }
             
 
 
