@@ -114,7 +114,7 @@ namespace begin_доп_задания
         }
 
 
-        static void qwe1()
+        static void rubles()
         {
 
             int number;
@@ -127,7 +127,7 @@ namespace begin_доп_задания
             {
                 Console.WriteLine(number + " рубль");
             }
-            else if ((unit >= 2 &&  unit <= 4) && (dozens != 1))
+            else if ((unit >= 2 && unit <= 4) && (dozens != 1))
             {
                 Console.WriteLine(number + " рубля");
             }
@@ -135,76 +135,12 @@ namespace begin_доп_задания
             {
                 Console.WriteLine(number + " рублей");
             }
-
-            //    if ((dozens > 1 & dozens < 10) & unit == 1) 
-            //    {
-            //        Console.WriteLine(number + " рубль");
-            //    }
-            //    else if ((a / 10 % 10 > 1 & a / 10 % 10 < 10) & (a % 10 >= 2 & a % 10 <= 4))
-            //    {
-            //        Console.WriteLine(a + " рубля");
-            //    }
-
-            //    else if ((a % 10 >= 1 & a % 10 <= 9))
-            //    {
-            //        Console.WriteLine(a + " рублей");
-            //    }
-            //    else if (a  == 1)
-            //{
-            //    Console.WriteLine(a + " рубль");
-            //}
-            //    else
-            //    {
-            //        Console.WriteLine(a + " рублей");
-            //    }
-            
-
-
-            //double s;
-            //Console.WriteLine("введите сумму");
-            //string w = Console.ReadLine();
-            //s = double.Parse(w);
-            //if (s == 1)
-            //{
-            //    Console.WriteLine(s + " рубль");
-            //}
-            //else if (s >= 2 && s <= 4)
-            //{
-            //    Console.WriteLine(s + " рубля");
-            //}
-            //else
-            //{
-            //    Console.WriteLine(s + " рублей");
-            //}
         }
 
-        // если на 1 рубль, ктоме 11 рублей
-        // 2 3 4 рябля, кроме 12 рублей 
-        // 
+             
 
 
-        //static void begin5()
-        //{
-
-
-        //    int a;
-        //    int S;
-        //    int V;
-        //    Console.WriteLine(" чему равно а ");
-        //    string e = Console.ReadLine();
-        //    a = int.Parse(e);
-        //    Console.WriteLine("P = " + Math.Pow(a, 3));
-        //    Console.WriteLine("S = " + 6 * Math.Pow(a, 2));
-
-        //    int a;
-        //    Console.WriteLine(" чему равно а ");
-        //    string e = Console.ReadLine();
-        //    a = int.Parse(e);
-        //    for (int i = 1; i <= 10; i = i + 1)
-        //    {
-        //        Console.WriteLine(i);
-        //    }
-        //}
+       
 
 
         static void begin7()
@@ -301,7 +237,7 @@ namespace begin_доп_задания
         static void Main(string[] args)
         {
             //if13();
-            qwe1();
+            rubles();
             //qwe2 ();
             //for5();
             //for6();
