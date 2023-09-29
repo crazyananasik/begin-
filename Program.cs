@@ -8,6 +8,41 @@ namespace begin_доп_задания
 {
     internal class Program
     {
+        static void for22(int N, double X)
+        {
+            double factorial = 1;
+
+            double step;
+            double sum = 0;
+
+
+            for (double i = 1; i <= N; i++)
+            {
+                factorial *= i;
+                step = Math.Pow(X, i);
+                sum += (step / factorial);
+                double d = 1 + sum;
+                Console.WriteLine(d);
+            }
+        }
+       
+        static void for20()
+        {
+            int N;
+            Console.WriteLine("введите число N ");
+            string w = Console.ReadLine();
+            N = int.Parse(w);
+            long f = 1;
+            long q = 0;
+            for (int i = 1; i <= N; i++)
+            {
+                f *= i;
+                q += f;
+
+            }
+            Console.WriteLine($"факториал числа {N} равен {f}");
+            Console.WriteLine($"сумма факториалов {N} равна {q}");
+        }
         static void qwe4()
         {
             int a;
@@ -237,13 +272,16 @@ namespace begin_доп_задания
         static void Main(string[] args)
         {
             //if13();
-            rubles();
+            //rubles();
             //qwe2 ();
             //for5();
             //for6();
             //for7();
             //qwe3();
             //qwe4();
+            //for20();
+            //for22();
+
 
 
             ////begin 9
@@ -317,7 +355,7 @@ namespace begin_доп_задания
             //    c = a;
             //    a = b;
             //    b = c;
-            //    Console.WriteLine("a: " + a + " b: " + b);
+            //Console.WriteLine("a: " + a + " b: " + b);
 
             //}
             //else
